@@ -74,16 +74,16 @@ p{
 }
 @media (max-width:736px){
     table{
-        width:30%;
+        width: 15%;
         height: 100%;
-        margin-left:7px;
-        margin-top: 40px;
-        font-size: 18px;
+        margin-left:3px;
+        margin-top: 20px;
+        font-size: 15px;
     }
     .calender-container{
         margin-left: 15px;
-        width:275px;
-        height: 375px;
+        width:250px;
+        height: 360px;
         padding:15px;
         margin-top: 60px;
         margin-left: 50px;
