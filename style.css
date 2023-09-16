@@ -81,7 +81,7 @@ p{
         font-size: 15px;
     }
     .calender-container{
-       /* margin-left: 10px;*/
+        /* margin-left: 10px; */
         width:260px;
         height: 360px;
         padding:15px;
@@ -114,5 +114,73 @@ p{
     } 
     .info{
         font-size: 12px;
+    }
+}
+@media (min-width: 736px) and (max-width: 1024px){
+    table{
+        width: 30%;
+        height: 100%;
+        margin-left:50px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .calender-container{
+        width:390px;
+        height: 475px;
+        padding:15px;
+        margin-top: 25px;
+        margin-left: 240px;
+        text-align: center;
+        
+    }
+    body{
+        background-image: url('./beach.jpg');
+        width:100%;  
+        height: auto;
+        background-position: center;
+        background-size:cover;
+    } 
+    .headingclass{
+        margin-top: 10px;
+        font-size: 38px;
+      padding: 20px;
+      
+    }
+    .info{
+        font-size: 12px;
+    }
+}
+@media (min-width:1024px) and (max-width:1400px){
+    table{
+        width: 35%;
+        height: 100%;
+        margin-left:70px;
+        margin-top: 5px;
+        font-size: 22px;
+    }
+    .calender-container{
+        width:450px;
+        height: 500px;
+        padding:15px;
+        margin-top: 25px;
+        margin-left: 300px;
+        text-align: center;
+        
+    }
+    body{
+        background-image: url('./beach.jpg');
+        width:100%;  
+        height: auto;
+        background-position: center;
+        background-size:cover;
+    } 
+    .headingclass{
+        margin-top: 10px;
+        font-size: 38px;
+      padding: 20px;
+      
+    }
+    .info{
+        font-size: 13px;
     }
 }
